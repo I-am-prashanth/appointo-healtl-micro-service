@@ -9,6 +9,9 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/pg": "^8.23.1",
     "prettier": "3.9.6",
     "turbo": "^2.10.12",
     "typescript": "7.0.2"
@@ -16,5 +19,11 @@
   "packageManager": "pnpm@11.23.0",
   "engines": {
     "node": ">=24"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.0"
   }
 }
